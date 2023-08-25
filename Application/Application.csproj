@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Haukcode.WkHtmlToPdfDotNet" Version="1.5.86" />
+    <PackageReference Include="RazorEngineCore" Version="2022.8.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Abstractions\" />
+    <None Remove="Person\" />
+    <None Remove="Person\Commands\" />
+    <None Remove="Person\Queries\" />
+    <None Remove="Person\CommandHandlers\" />
+    <None Remove="Person\QueryHandlers\" />
+    <None Remove="Pdfs\" />
+    <None Remove="Pdfs\Queries\" />
+    <None Remove="Pdfs\QueryHandlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Person\" />
+    <Folder Include="Person\Commands\" />
+    <Folder Include="Person\Queries\" />
+    <Folder Include="Person\CommandHandlers\" />
+    <Folder Include="Person\QueryHandlers\" />
+    <Folder Include="Pdfs\" />
+    <Folder Include="Pdfs\Queries\" />
+    <Folder Include="Pdfs\QueryHandlers\" />
+  </ItemGroup>
+</Project>
