@@ -18,9 +18,8 @@ namespace Application.Person.CommandHandlers
 
         public async Task<Person> Handle(CreatePerson request, CancellationToken cancellationToken)
         {
-            var person = new Person
+            var person = new Person(request.Title ?? string.Empty)
             {
-                Name = request.Title ?? string.Empty,
                 Email = request.Description ?? string.Empty
             };
 

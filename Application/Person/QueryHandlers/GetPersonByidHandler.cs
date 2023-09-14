@@ -7,20 +7,25 @@ namespace Application.Person.QueryHandlers
     using System.Threading;
     using System.Threading.Tasks;
     using Application.Abstractions;
+    using Application.ViewModels;
+    using AutoMapper;
     using Domain.Entities;
 
-	public class GetPersonByidHandler : IRequestHandler<GetPersonById, Person>
+	public class GetPersonByidHandler : IRequestHandler<GetPersonById, PersonViewModel>
 	{
         private readonly IPersonRepository _personRepo;
+        private readonly IMapper _mapper;
 
-        public GetPersonByidHandler(IPersonRepository personRepository)
+        public GetPersonByidHandler(IPersonRepository personRepository, IMapper mapper)
 		{
             _personRepo = personRepository;
+            _mapper = mapper;
 		}
 
-        public async Task<Person> Handle(GetPersonById request, CancellationToken cancellationToken)
+        public async Task<PersonViewModel> Handle(GetPersonById request, CancellationToken cancellationToken)
         {
-            return await _personRepo.GetPersonById(request.Id);
+            var person = await _personRepo.GetPersonById(request.Id);
+            return _mapper.Map<PersonViewModel>(person);
         }
     }
 }

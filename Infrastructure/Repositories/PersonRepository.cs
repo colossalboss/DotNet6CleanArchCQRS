@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
+    using System.Linq;
     using System.Reflection;
     using Domain.Entities;
     using Infrastructure.Persistence;
@@ -82,6 +83,11 @@ namespace Infrastructure.Repositories
         public async Task<ICollection<Person>> GetAll()
         {
             return await _context.Persons.ToListAsync();
+        }
+
+        public IQueryable<Person> GetAllQueryable()
+        {
+            return _context.Persons;
         }
 
         public async Task<Person> GetPersonById(int personId)

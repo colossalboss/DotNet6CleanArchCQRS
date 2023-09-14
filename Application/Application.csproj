@@ -15,6 +15,12 @@
     <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Haukcode.WkHtmlToPdfDotNet" Version="1.5.86" />
     <PackageReference Include="RazorEngineCore" Version="2022.8.1" />
+    <PackageReference Include="Hangfire" Version="1.8.5" />
+    <PackageReference Include="Hangfire.SQLite" Version="1.4.2" />
+    <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Abstractions\" />
@@ -26,6 +32,11 @@
     <None Remove="Pdfs\" />
     <None Remove="Pdfs\Queries\" />
     <None Remove="Pdfs\QueryHandlers\" />
+    <None Remove="Jobs\" />
+    <None Remove="Jobs\TestJob\" />
+    <None Remove="Profiles\" />
+    <None Remove="ViewModels\" />
+    <None Remove="MetaData\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstractions\" />
@@ -37,5 +48,10 @@
     <Folder Include="Pdfs\" />
     <Folder Include="Pdfs\Queries\" />
     <Folder Include="Pdfs\QueryHandlers\" />
+    <Folder Include="Jobs\" />
+    <Folder Include="Jobs\TestJob\" />
+    <Folder Include="Profiles\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="MetaData\" />
   </ItemGroup>
 </Project>

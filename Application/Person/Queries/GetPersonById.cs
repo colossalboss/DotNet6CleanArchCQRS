@@ -3,9 +3,10 @@ using MediatR;
 
 namespace Application.Person.Queries
 {
-	using Domain.Entities;
+    using Application.ViewModels;
+    using Domain.Entities;
 
-	public class GetPersonById : IRequest<Person>
+	public class GetPersonById : IRequest<PersonViewModel>
 	{
 		public int Id { get; set; }
 	}

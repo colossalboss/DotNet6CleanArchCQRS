@@ -1,0 +1,282 @@
+2023-09-02 01:27:43.907 +01:00 [INF] Start installing Hangfire SQL objects...
+2023-09-02 01:27:44.036 +01:00 [INF] Hangfire SQL objects installed.
+2023-09-02 01:27:44.095 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-02 01:27:44.122 +01:00 [DBG] Hosting starting
+2023-09-02 01:27:44.470 +01:00 [INF] Now listening on: https://localhost:7026
+2023-09-02 01:27:44.471 +01:00 [INF] Now listening on: http://localhost:5118
+2023-09-02 01:27:44.471 +01:00 [DBG] Loaded hosting startup assembly WebApi
+2023-09-02 01:27:44.483 +01:00 [INF] Starting Hangfire Server using job storage: 'SQLite Server: hangfire.db'
+2023-09-02 01:27:44.484 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2023-09-02 01:27:44.506 +01:00 [DBG] Execution loop BackgroundServerProcess:483375b9 has started in 15.945 ms
+2023-09-02 01:27:44.506 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-02 01:27:44.507 +01:00 [INF] Hosting environment: Development
+2023-09-02 01:27:44.507 +01:00 [INF] Content root path: /Users/macbookpro/Desktop/projects/CleanArchCqrs/WebApi
+2023-09-02 01:27:44.507 +01:00 [DBG] Hosting started
+2023-09-02 01:27:44.669 +01:00 [INF] Server 247ec657-dd2a-41f4-8f9d-7c4bcfad3c66 successfully announced in 160.2165 ms
+2023-09-02 01:27:44.674 +01:00 [DBG] Execution loop ServerHeartbeatProcess:9ac07b81 has started in 3.4959 ms
+2023-09-02 01:27:44.674 +01:00 [INF] Server 247ec657-dd2a-41f4-8f9d-7c4bcfad3c66 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2023-09-02 01:27:44.676 +01:00 [DBG] Execution loop ServerWatchdog:6d6907e7 has started in 2.137 ms
+2023-09-02 01:27:44.678 +01:00 [DBG] Execution loop ServerJobCancellationWatcher:62cd0216 has started in 3.7644 ms
+2023-09-02 01:27:44.681 +01:00 [DBG] Execution loop ExpirationManager:7563410a has started in 2.3836 ms
+2023-09-02 01:27:44.706 +01:00 [DBG] Execution loop Worker:e3001bfe has started in 27.2294 ms
+2023-09-02 01:27:44.728 +01:00 [DBG] Execution loop Worker:dfce328c has started in 27.2378 ms
+2023-09-02 01:27:44.728 +01:00 [DBG] Execution loop Worker:a88277ca has started in 49.7548 ms
+2023-09-02 01:27:44.732 +01:00 [DBG] Execution loop Worker:e1876cfa has started in 51.557 ms
+2023-09-02 01:27:44.732 +01:00 [DBG] Execution loop Worker:3566e98c has started in 53.1206 ms
+2023-09-02 01:27:44.782 +01:00 [DBG] Execution loop Worker:c9b0f972 has started in 78.6829 ms
+2023-09-02 01:27:44.833 +01:00 [DBG] Execution loop Worker:2eac50a7 has started in 154.0301 ms
+2023-09-02 01:27:44.808 +01:00 [DBG] Execution loop Worker:fc5bdf85 has started in 129.3667 ms
+2023-09-02 01:27:44.833 +01:00 [DBG] Execution loop Worker:69553275 has started in 153.9573 ms
+2023-09-02 01:27:44.833 +01:00 [DBG] Execution loop Worker:8636e610 has started in 153.9937 ms
+2023-09-02 01:27:44.833 +01:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2023-09-02 01:27:44.883 +01:00 [DBG] Execution loop Worker:2d81e338 has started in 178.108 ms
+2023-09-02 01:27:44.883 +01:00 [DBG] Execution loop Worker:37102c52 has started in 204.8256 ms
+2023-09-02 01:27:44.883 +01:00 [DBG] Execution loop Worker:96290d0e has started in 204.8329 ms
+2023-09-02 01:27:44.933 +01:00 [DBG] Execution loop Worker:c35f833b has started in 254.0956 ms
+2023-09-02 01:27:44.933 +01:00 [DBG] Execution loop Worker:333a473c has started in 254.1722 ms
+2023-09-02 01:27:44.933 +01:00 [DBG] Execution loop Worker:7c26919b has started in 254.1248 ms
+2023-09-02 01:27:44.958 +01:00 [DBG] Execution loop Worker:81336de0 has started in 279.5136 ms
+2023-09-02 01:27:44.979 +01:00 [DBG] Execution loop Worker:104e911b has started in 300.8206 ms
+2023-09-02 01:27:44.979 +01:00 [DBG] Execution loop Worker:91a84f2e has started in 300.7854 ms
+2023-09-02 01:27:44.979 +01:00 [DBG] Execution loop Worker:242f9055 has started in 300.8201 ms
+2023-09-02 01:27:45.005 +01:00 [INF] Server 247ec657-dd2a-41f4-8f9d-7c4bcfad3c66 all the dispatchers started
+2023-09-02 01:27:45.006 +01:00 [DBG] Execution loop DelayedJobScheduler:08d094e6 has started in 26.3368 ms
+2023-09-02 01:27:45.006 +01:00 [DBG] Execution loop RecurringJobScheduler:a2a9aec5 has started in 26.0758 ms
+2023-09-02 01:27:45.009 +01:00 [DBG] Removing outdated records from the 'Job' table...
+2023-09-02 01:27:45.097 +01:00 [DBG] Connection id "0HMTB9DMNT433" accepted.
+2023-09-02 01:27:45.098 +01:00 [DBG] Connection id "0HMTB9DMNT433" started.
+2023-09-02 01:27:45.104 +01:00 [DBG] Removing outdated records from the 'List' table...
+2023-09-02 01:27:45.105 +01:00 [DBG] Removing outdated records from the 'Set' table...
+2023-09-02 01:27:45.106 +01:00 [DBG] Removing outdated records from the 'Hash' table...
+2023-09-02 01:27:45.679 +01:00 [DBG] Connection id "0HMTB9DMNT433" received FIN.
+2023-09-02 01:27:45.687 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 01:27:45.728 +01:00 [DBG] Connection id "0HMTB9DMNT433" stopped.
+2023-09-02 01:27:45.732 +01:00 [DBG] Connection id "0HMTB9DMNT433" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 01:27:45.774 +01:00 [DBG] Connection id "0HMTB9DMNT434" accepted.
+2023-09-02 01:27:45.774 +01:00 [DBG] Connection id "0HMTB9DMNT434" started.
+2023-09-02 01:27:45.775 +01:00 [DBG] Connection id "0HMTB9DMNT435" accepted.
+2023-09-02 01:27:45.775 +01:00 [DBG] Connection id "0HMTB9DMNT435" started.
+2023-09-02 01:27:45.863 +01:00 [DBG] Connection 0HMTB9DMNT435 established using the following protocol: "Tls12"
+2023-09-02 01:27:45.863 +01:00 [DBG] Connection 0HMTB9DMNT434 established using the following protocol: "Tls12"
+2023-09-02 01:27:45.895 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7026/swagger/index.html - -
+2023-09-02 01:27:45.897 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-02 01:27:45.918 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-02 01:27:45.919 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 01:27:46.051 +01:00 [DBG] Connection id "0HMTB9DMNT435" completed keep alive response.
+2023-09-02 01:27:46.052 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7026/swagger/index.html - - - 200 - text/html;charset=utf-8 158.0502ms
+2023-09-02 01:27:46.068 +01:00 [DBG] Connection id "0HMTB9DMNT436" accepted.
+2023-09-02 01:27:46.068 +01:00 [DBG] Connection id "0HMTB9DMNT436" started.
+2023-09-02 01:27:46.070 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7026/swagger/swagger-ui-bundle.js - -
+2023-09-02 01:27:46.070 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-02 01:27:46.070 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 01:27:46.073 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7026/swagger/swagger-ui.css - -
+2023-09-02 01:27:46.073 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-09-02 01:27:46.073 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 01:27:46.106 +01:00 [DBG] Connection 0HMTB9DMNT436 established using the following protocol: "Tls12"
+2023-09-02 01:27:46.107 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7026/swagger/swagger-ui-standalone-preset.js - -
+2023-09-02 01:27:46.107 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-02 01:27:46.107 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 01:27:46.154 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-02 01:27:46.177 +01:00 [DBG] Connection id "0HMTB9DMNT435" completed keep alive response.
+2023-09-02 01:27:46.179 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7026/swagger/swagger-ui.css - - - 200 144929 text/css 105.5527ms
+2023-09-02 01:27:46.184 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-02 01:27:46.184 +01:00 [DBG] Connection id "0HMTB9DMNT436" completed keep alive response.
+2023-09-02 01:27:46.184 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7026/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 77.1229ms
+2023-09-02 01:27:46.252 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-02 01:27:46.253 +01:00 [DBG] Connection id "0HMTB9DMNT434" completed keep alive response.
+2023-09-02 01:27:46.253 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7026/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 183.2126ms
+2023-09-02 01:27:46.908 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7026/swagger/v1/swagger.json - -
+2023-09-02 01:27:46.908 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-02 01:27:46.908 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 01:27:46.921 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WebApi.Controllers.WeatherForecastController.Get (WebApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-09-02 01:27:46.927 +01:00 [DBG] Connection id "0HMTB9DMNT434" completed keep alive response.
+2023-09-02 01:27:46.927 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7026/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 19.1517ms
+2023-09-02 01:28:14.964 +01:00 [DBG] Server 247ec657-dd2a-41f4-8f9d-7c4bcfad3c66 heartbeat successfully sent
+2023-09-02 01:28:44.967 +01:00 [DBG] Server 247ec657-dd2a-41f4-8f9d-7c4bcfad3c66 heartbeat successfully sent
+2023-09-02 01:29:14.972 +01:00 [DBG] Server 247ec657-dd2a-41f4-8f9d-7c4bcfad3c66 heartbeat successfully sent
+2023-09-02 01:31:11.398 +01:00 [INF] Start installing Hangfire SQL objects...
+2023-09-02 01:31:11.540 +01:00 [INF] Hangfire SQL objects installed.
+2023-09-02 01:31:11.599 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-02 01:31:11.626 +01:00 [DBG] Hosting starting
+2023-09-02 01:31:11.932 +01:00 [INF] Now listening on: https://localhost:7026
+2023-09-02 01:31:11.932 +01:00 [INF] Now listening on: http://localhost:5118
+2023-09-02 01:31:11.932 +01:00 [DBG] Loaded hosting startup assembly WebApi
+2023-09-02 01:31:11.939 +01:00 [INF] Starting Hangfire Server using job storage: 'SQLite Server: hangfire.db'
+2023-09-02 01:31:11.939 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2023-09-02 01:31:11.955 +01:00 [DBG] Execution loop BackgroundServerProcess:4a03521d has started in 5.1645 ms
+2023-09-02 01:31:11.956 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-02 01:31:11.957 +01:00 [INF] Hosting environment: Development
+2023-09-02 01:31:11.957 +01:00 [INF] Content root path: /Users/macbookpro/Desktop/projects/CleanArchCqrs/WebApi
+2023-09-02 01:31:11.957 +01:00 [DBG] Hosting started
+2023-09-02 01:31:11.967 +01:00 [DBG] Connection id "0HMTB9FKCOU6P" accepted.
+2023-09-02 01:31:11.968 +01:00 [DBG] Connection id "0HMTB9FKCOU6P" started.
+2023-09-02 01:31:12.107 +01:00 [INF] Server ce0e3400-2465-4bf3-8d46-2aed55aa0523 successfully announced in 148.3123 ms
+2023-09-02 01:31:12.111 +01:00 [DBG] Execution loop ServerHeartbeatProcess:4e7a88cc has started in 3.0872 ms
+2023-09-02 01:31:12.111 +01:00 [INF] Server ce0e3400-2465-4bf3-8d46-2aed55aa0523 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2023-09-02 01:31:12.115 +01:00 [DBG] Execution loop ServerWatchdog:80a71ac2 has started in 3.2359 ms
+2023-09-02 01:31:12.118 +01:00 [DBG] Execution loop ServerJobCancellationWatcher:d98a5577 has started in 6.0516 ms
+2023-09-02 01:31:12.121 +01:00 [DBG] Execution loop ExpirationManager:110eb263 has started in 2.8697 ms
+2023-09-02 01:31:12.166 +01:00 [DBG] Execution loop Worker:19931364 has started in 47.0493 ms
+2023-09-02 01:31:12.166 +01:00 [DBG] Execution loop Worker:7727ca6d has started in 24.3106 ms
+2023-09-02 01:31:12.166 +01:00 [DBG] Execution loop Worker:412871b8 has started in 47.0506 ms
+2023-09-02 01:31:12.171 +01:00 [DBG] Execution loop Worker:a531fc29 has started in 51.8854 ms
+2023-09-02 01:31:12.171 +01:00 [DBG] Execution loop Worker:8b4beda6 has started in 51.8776 ms
+2023-09-02 01:31:12.216 +01:00 [DBG] Execution loop Worker:df3a89d8 has started in 97.7094 ms
+2023-09-02 01:31:12.216 +01:00 [DBG] Execution loop Worker:e84a8004 has started in 97.7093 ms
+2023-09-02 01:31:12.216 +01:00 [DBG] Execution loop Worker:4cd1141c has started in 73.0083 ms
+2023-09-02 01:31:12.242 +01:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2023-09-02 01:31:12.269 +01:00 [DBG] Execution loop Worker:73106beb has started in 129.2971 ms
+2023-09-02 01:31:12.269 +01:00 [DBG] Execution loop Worker:db29b2b5 has started in 129.3192 ms
+2023-09-02 01:31:12.269 +01:00 [DBG] Execution loop Worker:69e5d018 has started in 150.6813 ms
+2023-09-02 01:31:12.293 +01:00 [DBG] Execution loop Worker:795446b0 has started in 174.2165 ms
+2023-09-02 01:31:12.293 +01:00 [DBG] Execution loop Worker:912e6cfc has started in 174.223 ms
+2023-09-02 01:31:12.320 +01:00 [DBG] Execution loop Worker:f9dc278b has started in 201.5197 ms
+2023-09-02 01:31:12.320 +01:00 [DBG] Execution loop Worker:100406f3 has started in 201.52 ms
+2023-09-02 01:31:12.343 +01:00 [DBG] Execution loop Worker:b6bcc94f has started in 223.8624 ms
+2023-09-02 01:31:12.343 +01:00 [DBG] Execution loop Worker:d116f474 has started in 223.8598 ms
+2023-09-02 01:31:12.369 +01:00 [DBG] Execution loop Worker:91b4566f has started in 250.4062 ms
+2023-09-02 01:31:12.369 +01:00 [DBG] Execution loop Worker:5c2d26d0 has started in 250.44 ms
+2023-09-02 01:31:12.371 +01:00 [DBG] Execution loop Worker:0d518142 has started in 252.6549 ms
+2023-09-02 01:31:12.397 +01:00 [INF] Server ce0e3400-2465-4bf3-8d46-2aed55aa0523 all the dispatchers started
+2023-09-02 01:31:12.397 +01:00 [DBG] Execution loop DelayedJobScheduler:c160ce0f has started in 27.8232 ms
+2023-09-02 01:31:12.421 +01:00 [DBG] Execution loop RecurringJobScheduler:0e984336 has started in 49.369 ms
+2023-09-02 01:31:12.423 +01:00 [DBG] Removing outdated records from the 'Job' table...
+2023-09-02 01:31:12.464 +01:00 [DBG] Removing outdated records from the 'List' table...
+2023-09-02 01:31:12.465 +01:00 [DBG] Removing outdated records from the 'Set' table...
+2023-09-02 01:31:12.467 +01:00 [DBG] Removing outdated records from the 'Hash' table...
+2023-09-02 01:31:12.959 +01:00 [DBG] Connection id "0HMTB9FKCOU6P" received FIN.
+2023-09-02 01:31:12.965 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 01:31:13.006 +01:00 [DBG] Connection id "0HMTB9FKCOU6P" stopped.
+2023-09-02 01:31:13.011 +01:00 [DBG] Connection id "0HMTB9FKCOU6P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 01:31:13.023 +01:00 [DBG] Connection id "0HMTB9FKCOU6Q" accepted.
+2023-09-02 01:31:13.023 +01:00 [DBG] Connection id "0HMTB9FKCOU6Q" started.
+2023-09-02 01:31:13.026 +01:00 [DBG] Connection id "0HMTB9FKCOU6R" accepted.
+2023-09-02 01:31:13.027 +01:00 [DBG] Connection id "0HMTB9FKCOU6R" started.
+2023-09-02 01:31:13.187 +01:00 [DBG] Connection 0HMTB9FKCOU6Q established using the following protocol: "Tls12"
+2023-09-02 01:31:13.187 +01:00 [DBG] Connection 0HMTB9FKCOU6R established using the following protocol: "Tls12"
+2023-09-02 01:31:13.237 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7026/swagger/index.html - -
+2023-09-02 01:31:13.239 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-02 01:31:13.271 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-02 01:31:13.272 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 01:31:13.376 +01:00 [DBG] Connection id "0HMTB9FKCOU6R" completed keep alive response.
+2023-09-02 01:31:13.377 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7026/swagger/index.html - - - 200 - text/html;charset=utf-8 141.5956ms
+2023-09-02 01:31:14.080 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7026/swagger/v1/swagger.json - -
+2023-09-02 01:31:14.080 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-02 01:31:14.081 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 01:31:14.095 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - WebApi.Controllers.WeatherForecastController.Get (WebApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-09-02 01:31:14.102 +01:00 [DBG] Connection id "0HMTB9FKCOU6R" completed keep alive response.
+2023-09-02 01:31:14.103 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7026/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 21.9195ms
+2023-09-02 01:31:42.300 +01:00 [DBG] Server ce0e3400-2465-4bf3-8d46-2aed55aa0523 heartbeat successfully sent
+2023-09-02 01:37:36.152 +01:00 [INF] Start installing Hangfire SQL objects...
+2023-09-02 01:37:36.284 +01:00 [INF] Hangfire SQL objects installed.
+2023-09-02 01:37:36.339 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-02 01:37:36.366 +01:00 [DBG] Hosting starting
+2023-09-02 01:37:36.701 +01:00 [INF] Now listening on: https://localhost:7026
+2023-09-02 01:37:36.702 +01:00 [INF] Now listening on: http://localhost:5118
+2023-09-02 01:37:36.702 +01:00 [DBG] Loaded hosting startup assembly WebApi
+2023-09-02 01:37:36.718 +01:00 [INF] Starting Hangfire Server using job storage: 'SQLite Server: hangfire.db'
+2023-09-02 01:37:36.718 +01:00 [DBG] Connection id "0HMTB9J721D8D" accepted.
+2023-09-02 01:37:36.718 +01:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2023-09-02 01:37:36.719 +01:00 [DBG] Connection id "0HMTB9J721D8D" started.
+2023-09-02 01:37:36.736 +01:00 [DBG] Execution loop BackgroundServerProcess:c1b9776f has started in 5.1474 ms
+2023-09-02 01:37:36.737 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-02 01:37:36.737 +01:00 [INF] Hosting environment: Development
+2023-09-02 01:37:36.737 +01:00 [INF] Content root path: /Users/macbookpro/Desktop/projects/CleanArchCqrs/WebApi
+2023-09-02 01:37:36.737 +01:00 [DBG] Hosting started
+2023-09-02 01:37:36.908 +01:00 [INF] Server a9435ec4-5fff-45b8-8bef-4a9986f03f20 successfully announced in 144.4822 ms
+2023-09-02 01:37:36.912 +01:00 [DBG] Execution loop ServerHeartbeatProcess:ab9b048a has started in 3.2842 ms
+2023-09-02 01:37:36.913 +01:00 [INF] Server a9435ec4-5fff-45b8-8bef-4a9986f03f20 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2023-09-02 01:37:36.915 +01:00 [DBG] Execution loop ServerWatchdog:2e9cd667 has started in 2.2485 ms
+2023-09-02 01:37:36.917 +01:00 [DBG] Execution loop ServerJobCancellationWatcher:218da176 has started in 4.25 ms
+2023-09-02 01:37:36.920 +01:00 [DBG] Execution loop ExpirationManager:9c9404c0 has started in 2.4298 ms
+2023-09-02 01:37:36.950 +01:00 [DBG] Execution loop Worker:9d01c75c has started in 32.4593 ms
+2023-09-02 01:37:36.950 +01:00 [DBG] Execution loop Worker:81277d67 has started in 6.5286 ms
+2023-09-02 01:37:36.950 +01:00 [DBG] Execution loop Worker:43e9ff5d has started in 32.4858 ms
+2023-09-02 01:37:36.953 +01:00 [DBG] Execution loop Worker:b5f5a6bb has started in 35.0607 ms
+2023-09-02 01:37:37.002 +01:00 [DBG] Execution loop Worker:6d1e2d5a has started in 84.2377 ms
+2023-09-02 01:37:37.002 +01:00 [DBG] Execution loop Worker:f16d3277 has started in 84.2629 ms
+2023-09-02 01:37:37.002 +01:00 [DBG] Execution loop Worker:15774b13 has started in 84.1231 ms
+2023-09-02 01:37:37.002 +01:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2023-09-02 01:37:37.053 +01:00 [DBG] Execution loop Worker:679c59ea has started in 134.7682 ms
+2023-09-02 01:37:37.053 +01:00 [DBG] Execution loop Worker:0f0d219c has started in 134.8334 ms
+2023-09-02 01:37:37.053 +01:00 [DBG] Execution loop Worker:00e9fabe has started in 134.8181 ms
+2023-09-02 01:37:37.079 +01:00 [DBG] Execution loop Worker:811f3f81 has started in 161.5353 ms
+2023-09-02 01:37:37.079 +01:00 [DBG] Execution loop Worker:28416a2b has started in 161.5945 ms
+2023-09-02 01:37:37.079 +01:00 [DBG] Execution loop Worker:e8658154 has started in 161.6608 ms
+2023-09-02 01:37:37.103 +01:00 [DBG] Execution loop Worker:dead8e15 has started in 185.0245 ms
+2023-09-02 01:37:37.103 +01:00 [DBG] Execution loop Worker:3d66b7a7 has started in 185.0192 ms
+2023-09-02 01:37:37.123 +01:00 [DBG] Execution loop Worker:0abcb8f6 has started in 205.659 ms
+2023-09-02 01:37:37.123 +01:00 [DBG] Execution loop Worker:d11a4e03 has started in 205.6569 ms
+2023-09-02 01:37:37.175 +01:00 [DBG] Execution loop Worker:a4fc008c has started in 232.197 ms
+2023-09-02 01:37:37.175 +01:00 [DBG] Execution loop Worker:fc692059 has started in 257.5512 ms
+2023-09-02 01:37:37.175 +01:00 [DBG] Execution loop Worker:f5779395 has started in 257.5593 ms
+2023-09-02 01:37:37.178 +01:00 [INF] Server a9435ec4-5fff-45b8-8bef-4a9986f03f20 all the dispatchers started
+2023-09-02 01:37:37.178 +01:00 [INF] 2 servers were removed due to timeout
+2023-09-02 01:37:37.178 +01:00 [DBG] Execution loop DelayedJobScheduler:32251685 has started in 2.3664 ms
+2023-09-02 01:37:37.201 +01:00 [DBG] Execution loop RecurringJobScheduler:89045fa4 has started in 25.1588 ms
+2023-09-02 01:37:37.203 +01:00 [DBG] Removing outdated records from the 'Job' table...
+2023-09-02 01:37:37.221 +01:00 [DBG] Removing outdated records from the 'List' table...
+2023-09-02 01:37:37.222 +01:00 [DBG] Removing outdated records from the 'Set' table...
+2023-09-02 01:37:37.223 +01:00 [DBG] Removing outdated records from the 'Hash' table...
+2023-09-02 01:37:37.660 +01:00 [DBG] Connection id "0HMTB9J721D8D" received FIN.
+2023-09-02 01:37:37.667 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 01:37:37.711 +01:00 [DBG] Connection id "0HMTB9J721D8D" stopped.
+2023-09-02 01:37:37.715 +01:00 [DBG] Connection id "0HMTB9J721D8D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 01:37:37.738 +01:00 [DBG] Connection id "0HMTB9J721D8E" accepted.
+2023-09-02 01:37:37.739 +01:00 [DBG] Connection id "0HMTB9J721D8E" started.
+2023-09-02 01:37:37.740 +01:00 [DBG] Connection id "0HMTB9J721D8F" accepted.
+2023-09-02 01:37:37.740 +01:00 [DBG] Connection id "0HMTB9J721D8F" started.
+2023-09-02 01:37:37.824 +01:00 [DBG] Connection 0HMTB9J721D8F established using the following protocol: "Tls12"
+2023-09-02 01:37:37.824 +01:00 [DBG] Connection 0HMTB9J721D8E established using the following protocol: "Tls12"
+2023-09-02 01:37:37.855 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7026/swagger/index.html - -
+2023-09-02 01:37:37.856 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-02 01:37:37.881 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-02 01:37:37.881 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 01:37:37.971 +01:00 [DBG] Connection id "0HMTB9J721D8F" completed keep alive response.
+2023-09-02 01:37:37.973 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7026/swagger/index.html - - - 200 - text/html;charset=utf-8 120.4367ms
+2023-09-02 01:37:38.599 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7026/swagger/v1/swagger.json - -
+2023-09-02 01:37:38.599 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-02 01:37:38.599 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 01:37:38.659 +01:00 [DBG] Connection id "0HMTB9J721D8F" completed keep alive response.
+2023-09-02 01:37:38.659 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7026/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 60.6416ms
+2023-09-02 01:38:07.127 +01:00 [DBG] Server a9435ec4-5fff-45b8-8bef-4a9986f03f20 heartbeat successfully sent

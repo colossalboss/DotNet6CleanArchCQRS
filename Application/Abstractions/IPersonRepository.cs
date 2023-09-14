@@ -8,6 +8,8 @@ namespace Application.Abstractions
 	{
         Task<ICollection<Person>> GetAll();
 
+        IQueryable<Person> GetAllQueryable();
+
         Task<Person> GetPersonById(int personId);
 
         Task<Person> AddPerson(Person toCreate);
